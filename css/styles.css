@@ -11,17 +11,19 @@ ul {
 
 /*----------- header -----------*/
 
-.header-nav {
-    color: #4d5ae5;
+.header-nav {}
+
+.header-nav-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.logo-footer-color {
+.logo-nav-color {
     color: #2e2f42;
 }
 
