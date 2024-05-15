@@ -1,0 +1,57 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: E5E5E5;
+    color: #2e2f42;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+p {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.hero {
+    background: #2e2f42;
+    font-weight: 700;
+}
+
+.page-title {
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.team {
+    width: 1440px;
+    height: 732px;
+    background: #f4f4fd;
+}
+
+.portfolio {
+    width: 1128px;
+    height: 1000px;
+}
