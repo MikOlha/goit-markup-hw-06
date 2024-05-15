@@ -11,10 +11,6 @@ ul {
 
 /*----------- header -----------*/
 
-.header-nav {
-    color: #4d5ae5;
-}
-
 .header-nav-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -32,13 +28,15 @@ ul {
 .header-nav-link {
     color: #434455;
     font-size: 16px;
-    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .nav-link {
-    color: #434455;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .address-link {
@@ -47,8 +45,6 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-/*-----------------------------------*/
 
 a:link {
     color: #2E2F42;
@@ -59,6 +55,8 @@ a:focus,
 a:active {
     color: #404BBF;
 }
+
+/*-----------------------------------*/
 
 /*-----------  hero  -----------*/
 
