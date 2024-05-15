@@ -70,8 +70,8 @@ a:active {
     cursor: pointer;
 }
 
-button :hover,
-button :focus {
+button:hover,
+button:focus {
     background-color: #404BBF
 }
 
