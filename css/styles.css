@@ -5,6 +5,10 @@ body {
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
 }
@@ -12,29 +16,24 @@ ul {
 /*----------- header -----------*/
 
 .header-nav-logo {
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+
 }
 
 .logo-nav-color {
     color: #2e2f42;
 }
 
-.header-nav-link {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
 .nav-link {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
