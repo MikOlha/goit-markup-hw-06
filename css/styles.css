@@ -5,11 +5,19 @@ body {
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
 }
 
 /*----------- header -----------*/
+
+
+
+
 
 .header-nav-logo {
     font-family: "Raleway", sans-serif;
@@ -26,33 +34,30 @@ ul {
 }
 
 .header-nav-link {
-    color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #404BBF;
+}
+
 .address-link {
     font-style: normal;
+}
+
+.header-address-link {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-a:link {
-    color: #2E2F42;
-}
-
-a:hover,
-a:focus,
-a:active {
+.header-address-link:hover,
+.header-address-link:focus {
     color: #404BBF;
 }
 
