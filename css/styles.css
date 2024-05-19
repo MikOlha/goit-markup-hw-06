@@ -92,7 +92,7 @@ a:active {
 
 /*-----------------------------------*/
 
-/*-----------  hero  -----------*/
+/*----------- s1. hero  -----------*/
 
 .hero {
     background: #2e2f42;
@@ -131,7 +131,7 @@ button:focus {
 
 /*-------------------------------------------*/
 
-/*------------- features ------------*/
+/*------------- s2. features ------------*/
 
 .features {
     padding-top: 120px;
@@ -149,7 +149,6 @@ button:focus {
 
 .list-features {
     width: calc((100% - 72px)/ 4);
-    flex-basis: calc((100% - 72px)/ 4);
 }
 
 .title {
@@ -170,7 +169,7 @@ button:focus {
 
 /*------------------------------------*/
 
-/*----------- team  -----------*/
+/*----------- s3. team  -----------*/
 
 .team {
     background: #f4f4fd;
@@ -197,7 +196,6 @@ button:focus {
 .team-img {
     background-color: #FFFFFF;
     width: calc((100% - 72px)/ 4);
-    flex-basis: calc((100% - 72px)/ 4);
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -218,7 +216,15 @@ button:focus {
 }
 
 
-/*---------------- portfolio ----------*/
+.text-team {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/*----------------s4. portfolio ----------*/
 .portfolio {
     text-transform: capitalize;
     padding-top: 120px;
