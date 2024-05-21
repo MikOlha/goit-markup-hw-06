@@ -5,12 +5,25 @@ body {
     font-style: normal;
 }
 
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
+    display: block;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 img {
@@ -32,7 +45,7 @@ img {
 
 .header-container {
     display: flex;
-
+    align-items: center;
 }
 
 .nav-header {
@@ -81,6 +94,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-left: auto;
 }
 
 
@@ -113,6 +127,8 @@ a:active {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 button:hover,
@@ -127,6 +143,9 @@ button:focus {
     text-align: center;
     color: #fff;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 /*-------------------------------------------*/
