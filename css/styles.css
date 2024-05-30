@@ -181,6 +181,8 @@ button:focus {
     margin: 0;
 }
 
+.features-icon {}
+
 .list-features {
     width: calc((100% - 72px)/ 4);
 }
@@ -234,6 +236,12 @@ button:focus {
     width: calc((100% - 72px)/ 4);
     border-radius: 0px 0px 4px 4px;
 
+
+}
+
+.list {
+    display: flex;
+    gap: 24px;
 }
 
 .list-section-team {
@@ -330,12 +338,15 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    padding-bottom: 16px;
 }
 
 .list-social {
     display: flex;
+    gap: 16px;
 }
 
 .social-icon {
     fell: none;
+
 }
