@@ -403,12 +403,11 @@ button:hover {
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
-    margin-right: 120px;
 }
 
 .logo {
     margin-left: 156px;
-
+    margin-right: 120px;
 }
 
 .header-footer-logo {
