@@ -434,7 +434,9 @@ button:hover {
     max-width: 264px;
 }
 
-.social-media {}
+.social-media {
+    margin-right: 120px;
+}
 
 .link-item {
     width: 100%;
