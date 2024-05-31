@@ -351,10 +351,11 @@ button:hover {
 .portfolio-img {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0%);
+
 }
 
-portfolio-img:hover {
-
+.portfolio-img:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
@@ -362,6 +363,7 @@ portfolio-img:hover {
 .image-portfolio {
     position: relative;
     overflow: hidden;
+
 }
 
 .image-portfolio-text {
@@ -394,6 +396,7 @@ portfolio-img:hover {
 .footer {
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 }
 
 .logo-footer {
