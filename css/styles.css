@@ -394,12 +394,8 @@ button:hover {
 
 /*------------  footer  ---------------*/
 .footer {
-    display: flex;
     align-items: baseline;
     margin-right: 120px;
-}
-
-.logo-footer {
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
