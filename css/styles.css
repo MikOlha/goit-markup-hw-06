@@ -403,11 +403,12 @@ button:hover {
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
+    margin-right: 120px;
 }
 
 .logo {
     margin-left: 156px;
-    margin-right: 120px;
+
 }
 
 .header-footer-logo {
@@ -432,10 +433,6 @@ button:hover {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-}
-
-.social-media {
-    margin-right: 120px;
 }
 
 .link-item {
