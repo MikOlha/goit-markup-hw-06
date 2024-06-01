@@ -405,7 +405,9 @@ button:hover {
     margin: 0 auto;
 }
 
-.logo-text {
+.logo {
+    display: flex;
+    flex-direction: column;
     margin-left: 156px;
     margin-right: 120px;
 }
@@ -422,6 +424,10 @@ button:hover {
     margin-bottom: 16px;
 }
 
+.social-media: {
+    display: flex;
+    flex-direction: column;
+}
 
 .logo-footer-color {
     color: #f4f4fd;
