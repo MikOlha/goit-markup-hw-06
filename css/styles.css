@@ -495,6 +495,7 @@ button:hover {
 }
 
 .btn-subscribe-submit {
+
     background: #4d5ae5;
     border-radius: 4px;
     width: 165px;
@@ -598,6 +599,7 @@ button:hover {
 
 form {
     width: 100%;
+    min-height: 584px;
     padding-top: 16px;
     padding-left: 24px;
     padding-right: 24px;
@@ -682,5 +684,5 @@ form {
     text-align: center;
     color: #fff;
     border: none;
-    margin-top: 24px;
+    margin-bottom: 24px;
 }
