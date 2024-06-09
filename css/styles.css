@@ -681,7 +681,7 @@ form {
 
 .check-input {}
 
-.check-input>.check-consent:checked {
+.check-input:checked+.form-label-consent>.check-consent {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
