@@ -700,14 +700,15 @@ form {}
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: inline-flex;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    flex-direction: row;
     gap: 8px;
 
 }
 
 .check-consent {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
