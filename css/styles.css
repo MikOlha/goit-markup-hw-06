@@ -699,7 +699,7 @@ form {}
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
@@ -708,7 +708,6 @@ form {}
 }
 
 .check-consent {
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
