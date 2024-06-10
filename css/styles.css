@@ -708,6 +708,7 @@ form {}
 }
 
 .check-consent {
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -717,8 +718,6 @@ form {}
     align-items: center;
     justify-content: center;
     fill: transparent;
-    display: inline-flex;
-
 }
 
 .check-consent-privacy {
