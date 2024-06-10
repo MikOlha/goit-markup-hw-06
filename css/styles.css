@@ -519,7 +519,10 @@ button:hover {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    gap: 16px;
+}
+
+.modal-icone-subscribe {
+    margin-left: 16px;
 }
 
 /*---------modal---------*/
@@ -608,7 +611,7 @@ form {}
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-
+    margin-bottom: 4px;
 }
 
 .form-input {
@@ -714,6 +717,7 @@ form {}
     align-items: center;
     justify-content: center;
     fill: transparent;
+    display: inline-flex;
 
 }
 
