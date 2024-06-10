@@ -476,7 +476,9 @@ button:hover {
     fill: #f4f4fd;
 }
 
-.subscribe {}
+.subscribe {
+    margin-left: auto;
+}
 
 .btn-subscribe {
     display: flex;
@@ -517,10 +519,7 @@ button:hover {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-}
-
-.modal-icone {
-    margin-left: 16px;
+    gap: 16px;
 }
 
 /*---------modal---------*/
@@ -597,13 +596,7 @@ button:hover {
     margin-bottom: 16px;
 }
 
-form {
-    width: 100%;
-    min-height: 584px;
-    padding-top: 16px;
-    padding-left: 24px;
-    padding-right: 24px;
-}
+form {}
 
 .modal-form {
     margin-bottom: 8px;
@@ -615,7 +608,7 @@ form {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    margin-bottom: 4px;
+
 }
 
 .form-input {
@@ -665,15 +658,6 @@ form {
     color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-input:focus+.modal-icone,
-.modal-input:hover+.modal-icone {
-    fill: #4D5AE5;
-}
-
-.modal-input-comment:focus {
-    border-color: #4D5AE5;
-}
-
 .modal-icone {
     position: absolute;
     top: 50%;
@@ -683,11 +667,23 @@ form {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-icone-privacy {
+    cursor: pointer;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus+.modal-icone,
+.modal-input:hover+.modal-icone {
+    fill: #4D5AE5;
+}
+
+.modal-input-comment:focus {
+    border-color: #4D5AE5;
+}
+
 .check {
     margin-bottom: 24px;
 }
-
-.check-input {}
 
 .check-input:checked+.form-label-consent>.check-consent {
     background-color: #404bbf;
@@ -700,6 +696,12 @@ form {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+
 }
 
 .check-consent {
@@ -712,10 +714,12 @@ form {
     align-items: center;
     justify-content: center;
     fill: transparent;
+
 }
 
 .check-consent-privacy {
     color: #4d5ae5;
+    display: inline;
 }
 
 .btn-send-submit {
@@ -731,7 +735,7 @@ form {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    margin-bottom: 24px;
+    margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
