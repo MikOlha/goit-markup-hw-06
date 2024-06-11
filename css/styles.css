@@ -704,13 +704,9 @@ form {}
     align-items: center;
     justify-content: flex-start;
     gap: 8px;
-
 }
 
 .check-consent {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
