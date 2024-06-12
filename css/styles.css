@@ -699,11 +699,6 @@ form {}
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 8px;
 }
 
 .check-consent {
@@ -716,10 +711,12 @@ form {}
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
+    margin-right: 8px;
 }
 
 .check-consent-privacy {
     color: #4d5ae5;
+    display: inline;
 }
 
 .btn-send-submit {
@@ -737,5 +734,4 @@ form {}
     border-radius: 4px;
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
