@@ -32,6 +32,12 @@ img {
     height: auto;
 }
 
+a:hover,
+a:focus,
+a:active {
+    color: #404BBF;
+}
+
 /*========= general ============*/
 
 .container {
@@ -127,8 +133,6 @@ header
     bottom: -1px;
 }
 
-
-
 .address-link {
     margin-left: auto;
 }
@@ -163,7 +167,6 @@ header
     .menu-address-link {
         display: none;
     }
-
 }
 
 /*----------- планшет -----------*/
@@ -176,8 +179,6 @@ header
     .header-container {
         padding: 0 16px;
     }
-
-
 }
 
 
@@ -198,92 +199,112 @@ header
 }
 
 
-a:hover,
-a:focus,
-a:active {
-    color: #404BBF;
-}
+
 
 /*--------- mob-menu --------*/
+@media screen and (max-width: 767px) {
 
-.mob-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #FFFFFF;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    padding: 24px 24px 40px 16px;
-    display: flex;
-    flex-direction: column;
+    .mob-header {
+        display: flex;
+        position: fixed;
+
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+        top: 0;
+    }
+
+    .mob-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        pointer-events: auto;
+        margin: 0 auto;
+        padding: 24px 24px 40px 16px;
+    }
+
+    .mob-close-btn {
+        margin-left: auto;
+        margin-bottom: 24px;
+        top: 24px;
+        right: 24px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e7e9fc;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0;
+        cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .nav-mob,
+    .nav-mob-stud {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .nav-mob-stud {
+        color: #404BBF;
+    }
+
+    .menu-nav-mob {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+    .mob-adres-social {
+        margin-top: auto;
+    }
+
+    .menu-address-mob {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding-bottom: 48px;
+    }
+
+    .tel-link-mob,
+    .address-link-mob {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #434455;
+        margin-left: auto;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .tel-link-mob {
+        color: #4D5AE5;
+    }
+
+    .list-social-mob {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+
+
 }
 
-.mob-menu {}
-
-.mob-close-btn {
-
-    margin-left: auto;
-    margin-bottom: 24px;
-    top: 24px;
-    right: 24px;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e7e9fc;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-mob {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu-nav-mob {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-
-.mob-adres-social {
-    margin-top: auto;
-}
-
-.menu-address-mob {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    padding-bottom: 48px;
-}
-
-.address-link-mob {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #434455;
-    margin-left: auto;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-.list-social-mob {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+@media screen and (min-width: 768px) {
+    .mob-menu {
+        display: none;
+    }
 }
 
 /* ========================================================================================================================================================
